@@ -4,6 +4,7 @@
     <string name="usernameHintText">Username</string>
     <string name="passwordHintText">Password</string>
     <string name="loginButtonText">Login</string>
+    <string name="mainTitle">Welcome to the world of Edunomics</string>
     <string name="registerButtonText">Register</string>
     <string name="subtiteRegistration">Fill the details to get started</string>
     <string name="subtiteLogin">Login in to continue</string>

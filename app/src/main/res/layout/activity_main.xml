@@ -41,4 +41,37 @@
         android:onClick="onClickLogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/vectorView"
+        android:layout_width="351dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/ic_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="402dp"
+        android:layout_height="131dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_foreground" />
+
+    <TextView
+        android:id="@+id/messageViewSlide"
+        android:layout_width="357dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/mainTitle"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vectorView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
