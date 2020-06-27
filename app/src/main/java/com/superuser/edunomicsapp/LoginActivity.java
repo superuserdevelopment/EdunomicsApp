@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void onClickLoginButton(View view){
         //code for logging in
-        //Intent intent = new Intent(this,LandingPageActivity.class);
+        final Intent intent = new Intent(this,ChatActivity.class);
         email = emailET.getText().toString();
         password = passwordET.getText().toString();
         //Pre-Validation of username and password
@@ -59,7 +59,8 @@ public class LoginActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 // Sign in success, update UI with the signed-in user's information
                                 FirebaseUser user = mAuth.getCurrentUser();
-                                createAlert("Success!","Sign-in Successful");
+                                startActivity(intent);
+                                //createAlert("Success!","Sign-in Successful");
 
                             } else {
                                 // If sign in fails, display a message to the user.

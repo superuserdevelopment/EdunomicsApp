@@ -37,7 +37,7 @@ public class RegistrationActivity extends AppCompatActivity {
     }
 
     public void onClickRegisterNewUser(View view){
-        //Intent intent = new Intent(this,LandingPageActivity.class);
+        final Intent intent = new Intent(this,ChatActivity.class);
         email = emailET.getText().toString();
         password = passwordET.getText().toString();
         confirmPassword = confirmPasswordET.getText().toString();
@@ -48,8 +48,7 @@ public class RegistrationActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 // Sign in success, update UI with the signed-in user's information
-                                Toast.makeText(RegistrationActivity.this, "Creation Successful",
-                                        Toast.LENGTH_SHORT).show();
+                                startActivity(intent);
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 //updateUI(user);
                             } else {

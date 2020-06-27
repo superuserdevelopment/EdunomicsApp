@@ -7,12 +7,13 @@
     <string name="registerButtonText">Register</string>
     <string name="subtiteRegistration">Fill the details to get started</string>
     <string name="subtiteLogin">Login in to continue</string>
+    <string name="search">Start Typing to Search</string>
     <string name="confirmPasswordHintText">Confirm Password</string>
     <string name="title">Welcome back!</string>
     <string name="registrationTitle">Let\'s catch up!</string>
     <string name="landingTitle">Hola! Let\'s get started</string>
     <string name="landingUsername">Logged in as</string>
-    <string name="greeting">Successfully Signed in</string>
+    <string name="chatTitle">Chats</string>
     <string name="logoutTitle">Logout</string>
     <string name="newUser">New here?</string>
     <string name="forgotPassword">Forgot Password?</string>
